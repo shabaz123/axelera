@@ -11,7 +11,7 @@ python SerialComms.py "MY COMMAND TEXT"
 ```
 
 ## Embedded in Software
-You can use the code from within other Python code, by adding this to your code:
+You can pull in the serial comms code into your own Python code, by simply ensuring the SerialComms.py file is in the same folder as your own code, and adding this to your code:
 
 ```
 from SerialComms import SerialComms
